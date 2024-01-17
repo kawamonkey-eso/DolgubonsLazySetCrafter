@@ -141,7 +141,7 @@ end
 
 
 function DolgubonSetCrafter:Initialize()
-	--[[LAM = LibStub:GetLibrary("LibAddonMenu-2.0")
+	--[[LAM = LibAddonMenu2
 	LAM:RegisterAddonPanel("DolgubonsWritCrafter", DolgubonSetCrafter.settings["panel"])
 	DolgubonSetCrafter.settings["options"] = DolgubonSetCrafter.langOptions()
 	LAM:RegisterOptionControls("DolgubonsWritCrafter", DolgubonSetCrafter.settings["options"])]]
